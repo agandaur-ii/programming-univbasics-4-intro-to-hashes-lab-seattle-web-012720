@@ -22,8 +22,7 @@ end
 
 def my_hash_creator(key, value)
   ro = {}
-  eee = key
-  ro[:eee] = value
+  ro[key] = value
   return ro
 end
 
