@@ -27,7 +27,7 @@ def my_hash_creator(key, value)
   p ro[:eee]
 end
 
-puts my_hash_creator("Did I work?", "yes")
+my_hash_creator("Did I work?", "yes")
 
 
 def read_from_hash(hash, key)
