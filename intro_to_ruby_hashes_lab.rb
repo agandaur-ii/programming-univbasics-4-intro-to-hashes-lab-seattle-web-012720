@@ -22,8 +22,8 @@ end
 
 def my_hash_creator(key, value)
   ro = {}
-  key = a
-  ro[a] = value
+  eee = key
+  ro[eee] = value
 end
 
 puts my_hash_creator("Did I work?", "yes")
