@@ -23,7 +23,7 @@ end
 def my_hash_creator(key, value)
   ro = {}
   ro[key] = value
-  return ro
+  p ro
 end
 
 my_hash_creator("Did I work?", "yes")
