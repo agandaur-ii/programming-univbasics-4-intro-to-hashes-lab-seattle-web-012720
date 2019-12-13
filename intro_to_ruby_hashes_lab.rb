@@ -24,9 +24,11 @@ def my_hash_creator(key, value)
   ro = {}
   eee = key
   ro["eee"] = value
+  puts ro["eee"]
 end
 
 puts my_hash_creator("Did I work?", "yes")
+
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
