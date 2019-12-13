@@ -15,7 +15,7 @@ def pioneer
 end
 
 def id_generator
-  fos = {
+  fus = {
     :id => 1
   }
 end
