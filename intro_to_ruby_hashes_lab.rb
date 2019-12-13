@@ -25,6 +25,8 @@ def my_hash_creator(key, value)
   ro[key] = value
 end
 
+puts my_hash_creator("Did I work?", 1)
+
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
 end
